@@ -1,27 +1,42 @@
-# package_name
+# string-tools
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+**string-tools** is a simple Python package for string manipulation and analysis.
+
+## Features
+
+- **Manipulate strings**  
+  - Capitalize words  
+  - Remove whitespace
+
+- **Analyze strings**  
+  - Count the number of vowels  
+  - Identify if a string is a palindrome  
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install:
 
 ```bash
-pip install package_name
+pip install string-tools
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from string_tools import formatting, analysis
+
+text = "Level"
+
+print(formatting.capitalize_words(text))  # Example: "Level"
+print(analysis.is_palindrome(text))       # Example: True
+
 ```
 
+## Requirements
+Python >= 3.8
+
 ## Author
-My_name
+TiagoTorx
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
