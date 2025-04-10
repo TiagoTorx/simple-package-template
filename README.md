@@ -1,6 +1,6 @@
-# string-tools
+# string-tools-practice
 
-**string-tools** is a simple Python package for string manipulation and analysis.
+**string-tools-practice** is a simple Python package for string manipulation and analysis.
 
 ## Features
 
@@ -17,7 +17,7 @@
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install:
 
 ```bash
-pip install string-tools
+pip install string-tools-practice
 ```
 
 ## Usage

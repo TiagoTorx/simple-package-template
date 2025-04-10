@@ -7,7 +7,7 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="string-tools",
+    name="string-tools-practice",
     version="0.0.1",
     author="TiagoTorx",
     author_email="tiagotorquetoserge@gmail.com",
